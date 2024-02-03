@@ -9,7 +9,9 @@ import './App.css';
 // import Boxes from './components/Boxes.js'
 // import jokes from './jokes.js'
 // import Joke from './components/Joke.js'
-import Form from './components/Form.js'
+// import Form from './components/Form.js'
+import SignIn from './components/SignIn.js'
+import ApiCall from './components/ApiCall.js'
 import React from 'react'
 
 function App() {
@@ -18,9 +20,9 @@ function App() {
   // const jokesArray = jokesState.map(joke => < Joke key={joke.id} setup={joke.setup} punchline={joke.punchline} />)
 
   return(
-    <body>
-      < Form />
-    </body>
+    <div className='container'>
+      < ApiCall />
+    </div>
   )
 }
 
