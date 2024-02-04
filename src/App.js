@@ -10,8 +10,9 @@ import './App.css';
 // import jokes from './jokes.js'
 // import Joke from './components/Joke.js'
 // import Form from './components/Form.js'
-import SignIn from './components/SignIn.js'
-import ApiCall from './components/ApiCall.js'
+// import SignIn from './components/SignIn.js'
+// import ApiCall from './components/ApiCall.js'
+import WindowTracker from './components/WindowTracker.js'
 import React from 'react'
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
 
   return(
     <div className='container'>
-      < ApiCall />
+      < WindowTracker />
     </div>
   )
 }
